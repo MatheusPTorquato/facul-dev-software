@@ -1,0 +1,61 @@
+h1{
+    color: rgb(68, 255, 68);
+    
+}
+.conteudo-opt{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 100px;
+}
+
+.conteudo-opt a{
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.conteudo-opt img {
+    max-width: 500px;
+    width: 100%;
+}
+
+.opt-axolote{
+    background-color: #000;
+    color: rgb(68, 255, 68);
+    margin: 20px 20px;
+}
+.opt-axolote:hover{
+    background-color: rgb(68, 255, 68);
+    color: #000;
+}
+
+.opt-cervo{
+    background-color: #000;
+    color: rgb(68, 255, 68);
+    margin: 20px 20px;
+}
+.opt-cervo:hover{
+    background-color: rgb(68, 255, 68);
+    color: #000 ;
+}
+
+.opt-lagarto{
+    background-color: #000;
+    color: rgb(68, 255, 68);
+    margin: 20px 20px;
+}
+.opt-lagarto:hover{
+    background-color: rgb(68, 255, 68);
+    color: #000;
+}
+
+.opt-peixe{
+    background-color: #000;
+    color: rgb(68, 255, 68);
+    margin: 20px 20px;
+}
+.opt-peixe:hover{
+   background-color: rgb(68, 255, 68);
+   color: #000;
+}
