@@ -1,0 +1,20 @@
+*{
+  background-color: black;
+  max-width: 1900px;
+  width: 100%;
+}
+
+.container{
+  display: flex;
+  /* Aplica flexbox ao elemento pai */
+  flex-direction: row;
+  /* Define o eixo principal horizontal */
+  justify-content: space-between;
+  /* Alinha os elementos filhos com espaço entre eles */
+  align-items: center;
+  /* Centraliza os elementos filhos no eixo cruzado vertical */
+}
+
+.Test{
+  flex: 1;
+}
