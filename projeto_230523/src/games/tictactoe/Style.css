@@ -1,0 +1,48 @@
+.block {
+  border: 2px solid;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.board-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Define a altura do contêiner para ocupar toda a altura da tela */
+}
+
+.board {
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.text{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+
+.botao{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.azul {
+  color: blue;
+}
+
+.vermelho {
+  color: red;
+}
