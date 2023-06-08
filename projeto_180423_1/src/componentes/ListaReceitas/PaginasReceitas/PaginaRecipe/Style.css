@@ -1,0 +1,60 @@
+.titlepage{
+  color:white;
+}
+
+.recipe-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+h2{
+  font-size: 40px;
+  text-align: center;
+  background-image: linear-gradient(to right, #fff, #ff0000, #ff0000, #fff);
+}
+
+.recipe-info {
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.recipe-info p{
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.recipe-img {
+  max-width: 700px;
+  margin: 0 40px;
+}
+
+.ingredients-preparation {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.ingredients {
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.preparation {
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.voltar-pg{
+  display: flex;
+  justify-content: center;
+}

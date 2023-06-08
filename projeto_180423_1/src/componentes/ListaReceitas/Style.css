@@ -1,0 +1,49 @@
+.receitas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.conteudo-opt {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.conteudo-opt a {
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.conteudo-opt a img {
+  max-width: 400px;
+  max-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.conteudo-opt a:hover {
+  color: #ff0000;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.conteudo-opt img:hover {
+  max-width: 500px;
+  max-height: 300px;
+  color: #ff0000;
+}
